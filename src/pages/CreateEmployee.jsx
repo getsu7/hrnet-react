@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useEmployees } from '../context/EmployeeContext';
 import DatePicker from '../components/DatePicker';
 import Select from '../components/Select';
-import Modal from '../components/Modal';
+import { Modal } from '@getsu7/react-simple-modal'
 import { states, departments } from '../data/states';
 import './CreateEmployee.css';
 
